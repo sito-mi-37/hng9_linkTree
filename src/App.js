@@ -7,6 +7,7 @@ function App() {
         <section className="profile">
           <img src="profile.jpg" alt="" id="profile__img" />
           <h3 id="twitter">@sito_37</h3>
+          <h3 id="slack">nelson akujiobi</h3>
           <div className="svg__container">
             <a href="google.com" title="share">
               <svg
