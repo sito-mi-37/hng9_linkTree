@@ -8,7 +8,7 @@ function App() {
           <img src="profile.jpg" alt="" id="profile__img" />
           <h3 id="twitter">@sito_37</h3>
           <div className="svg__container">
-            <a href="#" title="share">
+            <a href="google.com" title="share">
               <svg
                 width="42"
                 height="42"
