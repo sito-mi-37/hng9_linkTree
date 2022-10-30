@@ -93,6 +93,17 @@ function App() {
           </div>
         </section>
       </div>
+      <footer>
+        <div>
+          <div className="zuri__logo">
+            Zuri<span>.</span>Internship
+          </div>
+          <div>HNG internship 9 Frontend Task</div>
+          <div>
+            <img src="I4G.png" alt="" />
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
