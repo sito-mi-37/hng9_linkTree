@@ -44,6 +44,54 @@ function App() {
             <img src="_Avatar share button.png" alt="" />
           </div>
         </section>
+        <section className="links">
+          <a className="link" href="twitter">
+            Twitter Link
+          </a>
+          <a className="link" id="btn__zuri" href="https://training.zuri.team/">
+            Zuri Team
+          </a>
+          <a
+            className="link"
+            id="books"
+            href="http://books.zuri.team"
+            title="this is where you find books about design and coding"
+          >
+            Zuri Books
+          </a>
+          <a
+            className="link"
+            id="book__python"
+            href="https://books.zuri.team/python-for-beginners?ref_id=nelson37"
+            title="grab a copy of and in depth python book at a discounted price"
+          >
+            Python Books
+          </a>
+          <a
+            className="link"
+            id="pitch"
+            href="https://background.zuri.team"
+            title="You want to hire, We make it seemless for YOU!"
+          >
+            Background Check For Coders
+          </a>
+          <a
+            className="link"
+            id="book__design"
+            href="https://books.zuri.team/design-rules"
+            title="free design book offered by Zuri"
+          >
+            Design Books
+          </a>
+          <div>
+            <a href="https://app.slack.com/client/T042F7V19Q8/C041JU70S5U/rimeto_profile/U049CN55K40">
+              <img src="slack.png" alt="" />
+            </a>
+            <a href="https://github.com/sito-mi-37">
+              <img src="Icon.png" alt="" />
+            </a>
+          </div>
+        </section>
       </div>
     </div>
   );
