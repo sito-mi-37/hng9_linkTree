@@ -1,14 +1,12 @@
 import "./App.css";
 
 function App() {
-  const slack = process.env.SLACK;
   return (
     <div className="App">
       <div className="main">
         <section className="profile">
           <img src="profile.jpg" alt="" id="profile__img" />
           <h3 id="twitter">@sito_37</h3>
-          <h3>{slack}</h3>
           <div className="svg__container">
             <a href="#" title="share">
               <svg
