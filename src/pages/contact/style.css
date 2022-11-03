@@ -16,17 +16,20 @@
 }
 /* form styles */
 form {
-  height: 474px;
+  /* height: 474px; */
   display: flex;
   flex-direction: column;
-  gap: 15px;
   margin-top: 30px;
+}
+form > div{
+    margin-bottom: 15px;
 }
 label {
   font-size: 0.8em;
   font-weight: 500;
   line-height: 1.2em;
   color: #344054;
+  margin-bottom: 3px;
 }
 input {
   padding: 10px 14px;
@@ -50,6 +53,7 @@ textarea {
   display: flex;
   justify-content: space-between;
   gap: 15px;
+  
 }
 .names div {
   width: 50%;
@@ -90,6 +94,9 @@ textarea {
         width: 90%;
         margin: 20% auto;
       }
+    form{
+        /* border: 1px solid; */
+    }
     .names {
         flex-direction: column;
     }
