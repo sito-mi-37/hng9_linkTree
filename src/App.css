@@ -80,6 +80,8 @@ font-weight: 500;
 /* footer */
 footer{
   padding: 24px 32px;
+
+  margin-top: 50px;
 }
 footer>div{
   display: flex;
