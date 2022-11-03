@@ -4,9 +4,10 @@
 }
 .contact h1 {
   font-weight: 600;
-  font-size: 2.2em;
+  font-size: 2.4em;
   line-height: 44px;
   color: #101828;
+  margin-bottom: 15px;
 }
 .contact p {
   font-weight: 400;
@@ -21,8 +22,8 @@ form {
   flex-direction: column;
   margin-top: 30px;
 }
-form > div{
-    margin-bottom: 15px;
+form > div {
+  margin-bottom: 15px;
 }
 label {
   font-size: 0.8em;
@@ -53,14 +54,11 @@ textarea {
   display: flex;
   justify-content: space-between;
   gap: 15px;
-  
 }
 .names div {
   width: 50%;
 }
-.names div:first-child(div){
-    margin-bottom: 15px;
-}
+
 .agree {
   display: flex;
   align-items: flex-start;
@@ -79,7 +77,6 @@ textarea {
   color: #475467;
 }
 
-
 .btn button {
   width: 100%;
   padding: 12px 20px;
@@ -89,22 +86,22 @@ textarea {
   border-radius: 8px;
   font-weight: 600;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-@media only screen and (max-width: 700px){
-    .contact {
-        width: 90%;
-        margin: 20% auto;
-      }
-    form{
-        /* border: 1px solid; */
-    }
-    .names {
-        flex-direction: column;
-    }
-    .names div{
-        width: 100%;
-    }
-    
+@media only screen and (max-width: 700px) {
+  .contact {
+    width: 90%;
+    margin: 20% auto;
+  }
+
+  .firstName {
+    margin-bottom: 15px;
+  }
+  .names {
+    flex-direction: column;
+  }
+  .names div {
+    width: 100%;
+  }
 }

@@ -31,7 +31,7 @@ const Contact = () => {
                 <p>You agree to providing your data to sito who may contact you.</p>
             </div>
             <div className="btn">
-                <button id='btn_submit'>Send message</button>
+                <button id='btn__submit'>Send message</button>
             </div>
         </form>
 
