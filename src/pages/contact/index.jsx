@@ -9,20 +9,20 @@ const Contact = () => {
         <p>Hi there, contact me to ask me aboout anything you have in mind.</p>
         <form action="#">
             <div className="names">
-                <div className="firstName">
+                <div className="firstName flex">
                     <label>First name</label>
                     <input type="text" id='first_name'  placeholder='Enter your first name'/>
                 </div>
-                <div className="lastName">
+                <div className="lastName flex">
                     <label>Last name</label>
                     <input type="text" id='last_name' placeholder='Enter your last name' />
                 </div>
             </div>
-            <div className="email">
+            <div className="email flex">
                 <label>Email</label>
                 <input type="text" id='email' placeholder='yourname@email.com' />
             </div>
-            <div className="message">
+            <div className="message flex">
                 <label>Message</label>
                 <textarea name="" id="message" cols="30" rows="10" placeholder="Send me a message and I'll reply you as soon as possible..."></textarea>
             </div>

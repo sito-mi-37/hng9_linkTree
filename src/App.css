@@ -79,7 +79,7 @@ font-weight: 500;
 }
 /* footer */
 footer{
-  padding: 24px 32px;
+  padding: 24px 5%;
 
   margin-top: 50px;
 }
@@ -114,9 +114,13 @@ footer>div{
   .mobile__share{
     display: block;
   }
+  footer{
+    margin-top: 150px;
+  }
   footer>div{
     flex-direction: column;
     align-items: flex-start;
-    gap:40px;
+    gap:30px;
+  
   }
 }
