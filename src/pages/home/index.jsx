@@ -44,7 +44,7 @@ const Home = () => {
           </div>
         </section>
         <section className="links">
-          <a className="link" href="twitter">
+          <a className="link" href="https://twitter.com/sito_37">
             Twitter Link
           </a>
           <a className="link" id="btn__zuri" href="https://training.zuri.team/">
@@ -89,7 +89,7 @@ const Home = () => {
           >
             Contact Me
           </a>
-          <div>
+          <div className='link-icons'>
             <a href="https://app.slack.com/client/T042F7V19Q8/C041JU70S5U/rimeto_profile/U049CN55K40">
               <img src="slack.png" alt="" />
             </a>

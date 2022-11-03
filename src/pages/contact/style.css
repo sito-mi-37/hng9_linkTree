@@ -58,6 +58,9 @@ textarea {
 .names div {
   width: 50%;
 }
+.names div:first-child(div){
+    margin-bottom: 15px;
+}
 .agree {
   display: flex;
   align-items: flex-start;

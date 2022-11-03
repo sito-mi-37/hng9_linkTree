@@ -77,6 +77,9 @@ margin-bottom: 10px;
   display: flex;
   gap: 20px;
 }
+.link-icons a{
+  margin-right: 10px;
+}
 /* footer */
 footer{
   padding: 24px 5%;
